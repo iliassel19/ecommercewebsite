@@ -4,7 +4,8 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./scren/desktopscrenversion.png)
+![](./scren/mobilescrenversion.png)
 
 ### Links
 
