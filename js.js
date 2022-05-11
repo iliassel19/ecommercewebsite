@@ -178,6 +178,8 @@ popupBtnNext.addEventListener("click", function () {
   if (ind > popupImgs.length - 1) {
     ind = 0;
   }
+  popupThumbnails.forEach((ele) => ele.classList.remove("selected"));
+  popupThumbnails[ind].classList.add("selected");
   popupImgs.forEach((ele) => {
     ele.style.transform = `translateX(${ind * -100}%)`;
   });
@@ -188,6 +190,8 @@ popupBtnPrevious.addEventListener("click", function () {
   if (ind < 0) {
     ind = popupImgs.length - 1;
   }
+  popupThumbnails.forEach((ele) => ele.classList.remove("selected"));
+  popupThumbnails[ind].classList.add("selected");
   popupImgs.forEach((ele) => {
     ele.style.transform = `translateX(${ind * -100}%)`;
   });
