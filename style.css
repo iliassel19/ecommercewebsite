@@ -238,7 +238,7 @@ body {
 .active.shopping-box {
   z-index: 10;
   opacity: 1;
-  top: 20%;
+  top: 12%;
 }
 .shopping-cart {
   font-size: 1.4rem;
@@ -557,9 +557,6 @@ body {
 
   .shopping-box {
     width: 90%;
-  }
-  .active.shopping-box {
-    top: 12%;
   }
 
   /* HEADER FOR MOBILE ENDS */
